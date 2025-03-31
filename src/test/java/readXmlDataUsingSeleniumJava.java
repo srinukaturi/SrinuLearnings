@@ -28,6 +28,7 @@ public class readXmlDataUsingSeleniumJava {
 		{
 			Node node = nodelist.item(i);
 			Element ele = (Element)node;
+			//this is the check for read xml data from selenium
 			
 			System.out.println("value 1 of the node:"+ele.getElementsByTagName("groupId").item(0).getTextContent());
 			System.out.println("value 1 of the node:"+ele.getElementsByTagName("artifactId").item(0).getTextContent());
