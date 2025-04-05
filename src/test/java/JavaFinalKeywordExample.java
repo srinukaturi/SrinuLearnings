@@ -1,5 +1,5 @@
 
-public final class JavaFinalKeywordExample {
+public class JavaFinalKeywordExample {
 
 	public static void main(String[] args) {
 		
@@ -14,7 +14,7 @@ public final class JavaFinalKeywordExample {
 
 	}
 	
-	public final void isDisplay()
+	public void isDisplay()
 	{
 		System.out.println("this is final example");
 	}
